@@ -1,0 +1,29 @@
+.user {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    &:not(:last-child) {
+        border-bottom: 1px solid rgb(221, 221, 221);
+    }
+}
+
+.userWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+.date {
+    margin-left: 15px;
+    white-space: nowrap;
+}

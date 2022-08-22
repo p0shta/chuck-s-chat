@@ -5,6 +5,6 @@ export default function Container({ children }) {
     return <div className={s.container}>{children}</div>;
 }
 
-Container.propTypes = {
-    children: PropTypes.arrayOf(PropTypes.element),
-};
+// Container.propTypes = {
+//     children: PropTypes.arrayOf(PropTypes.element),
+// };
