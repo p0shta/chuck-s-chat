@@ -1,5 +1,5 @@
-import ChatsListItem from 'components/ChatsListItem/ChatsListItem';
-import s from './ChatsList.module.scss';
+import UsersListItem from 'components/UsersListItem/UsersListItem';
+import s from './UsersList.module.scss';
 
 const users = [
     {
@@ -28,13 +28,13 @@ const users = [
     },
 ];
 
-export default function ChatsList() {
+export default function UsersList() {
     return (
-        <div className={s.chatList}>
+        <div className={s.usersList}>
             <h1 className={s.title}>CHATS</h1>
             <ul className={s.list}>
                 {users.map(user => (
-                    <ChatsListItem key={user.id} user={user} />
+                    <UsersListItem key={user.id} user={user} />
                 ))}
             </ul>
         </div>

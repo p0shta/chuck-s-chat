@@ -1,8 +1,8 @@
 import UserAvatar from 'components/UserAvatar/UserAvatar';
 
-import s from './ChatsListItem.module.scss';
+import s from './UsersListItem.module.scss';
 
-export default function ChatsListItem({ user }) {
+export default function UsersListItem({ user }) {
     return (
         <li className={s.user}>
             <UserAvatar />
